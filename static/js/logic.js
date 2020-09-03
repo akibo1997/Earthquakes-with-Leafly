@@ -10,7 +10,7 @@ var myMap = L.map("map", {
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/streets-v11",
-    accessToken: apikey
+    accessToken: pk.eyJ1IjoiYWtpYm8xOTk3IiwiYSI6ImNrZW41aGNqcTA0c20yeGxnNmd6dzcwejcifQ.I9C0_Gb4qjmMeqLgN9FtxQ
   }).addTo(myMap);
   
   var newtry = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson";
